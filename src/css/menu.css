@@ -1,0 +1,92 @@
+.menu {
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+
+.menu-section {
+    background: rgba(11, 35, 66, 0.5);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.menu-section>.seraph {
+    border-bottom: 3px dotted azure;
+    margin: 20px 0;
+}
+
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-item {
+    background: rgb(240, 244, 246);
+    border-radius: 10px;
+    padding: 10px;
+    width: 500px;
+    margin: 10px;
+    position: relative;
+}
+
+.menu-item>.seraph {
+    margin: 10px;
+    border-bottom: 2px dotted black;
+}
+
+.menu-item .details {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item h2 {
+    color: rgb(233, 202, 26);
+    text-shadow: 1px 1px 1px rgb(212, 20, 190);
+}
+
+.menu-item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.menu-item .description {
+    color: gray;
+}
+
+.menu-item .price {
+    color: rgb(233, 202, 26);
+    text-shadow: 1px 1px 1px rgb(212, 20, 190);
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 1.5rem;
+}
+
+.menu-section>h2 {
+    font-size: 3rem;
+    color: azure;
+}
+
+.menu-item {
+    border: none;
+}
+
+@media screen and (max-width: 600px) {
+    .menu-item {
+        width: 300px;
+    }
+
+    .menu-item .details {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu-item .price {
+        position: static;
+        width: 100%;
+    }
+}
