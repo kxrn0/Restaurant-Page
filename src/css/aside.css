@@ -1,143 +1,186 @@
 aside {
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: orange;
-    width: 500px;
-    min-height: 100vh;
-    transition: all 0.33s;
-    transform: translateX(-100%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgb(241, 189, 105);
+  width: 500px;
+  min-height: 100vh;
+  transition: all 0.33s;
+  transform: translateX(-100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  z-index: 3;
 }
-  
-  aside .search {
-    display: flex;
+
+aside .search {
+  display: flex;
+}
+
+aside .current-filters {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+aside .buttons {
+  margin: 20px;
+}
+
+aside .unused-filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+aside .filter {
+  color: azure;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
+  display: flex;
+}
+
+aside .filter input[type="checkbox"] {
+  appearance: none;
+  background-color: transparent;
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+  border: none;
+  margin-right: 5px;
+  filter: invert(100%);
+}
+
+aside .filter input[type="checkbox"]:hover {
+  filter: invert(90%);
+}
+
+aside .buttons button {
+  color: rgb(160, 17, 17);
+  padding: 5px;
+  border: 4px solid rgb(2, 21, 55);
+  margin: 5px;
+  background-color: transparent;
+  border-radius: 10px;
+  font-size: 1.15rem;
+  transition: all .33s;
+}
+
+aside .buttons button:hover {
+  color: azure;
+  background: rgb(2, 21, 55);
+}
+
+aside .buttons button:active {
+  background: azure;
+  color: rgb(160, 17, 17);
+}
+
+aside .current-filters .filter {
+  background: rgb(84, 84, 161);
+}
+
+aside .unused-filters .filter {
+  background: rgb(161, 127, 127);
+}
+
+aside .current-filters input[type="checkbox"] {
+  background-image: url("../assets/images/close.svg");
+}
+
+aside .unused-filters .filter input[type="checkbox"] {
+  background-image: url("../assets/images/plus.svg");
+}
+
+label[for="search-bar"] {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-image: url("../assets/images/magnify.svg");
+  background-size: cover;
+}
+
+.search input[type="search"] {
+  background: rgb(255, 235, 230);
+  width: 70%;
+  appearance: none;
+  display: flex;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.15rem;
+}
+
+.search input[type="search"]:focus {
+  outline: 1px solid blue;
+}
+
+aside .nothing-found {
+  display: none;
+  background: rgb(230, 116, 116);
+  color: rgb(30, 33, 38);
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 2rem;
+
+}
+
+.open-aside {
+  background: rgb(77, 23, 77);
+  color: azure;
+  padding: 10px;
+  border-radius: 10px;
+  border: 3px solid azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 100px;
+  right: -25%;
+  z-index: 10;
+  transition: all 0.33s;
+}
+
+.open-aside:hover {
+  background: azure;
+  color: rgb(77, 23, 77);
+}
+
+.close-aside {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  background-image: url("../assets/images/close.svg");
+  background-size: cover;
+  background-color: transparent;
+  border: none;
+  transition: all 0.33s;
+}
+
+.close-aside:hover {
+  transform: rotate(90deg);
+}
+
+aside .seraph {
+  width: 100%;
+  border-bottom: 4px dotted red;
+  margin: 10px 0 50px 0;
+}
+
+@media screen and (max-width: 500px) {
+  aside {
+    top: 0;
+    padding: 10px;
+    width: 95%;
+    height: fit-content;
   }
-  
-  aside .current-filters {
-    margin-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  aside .buttons {
+
+  aside .seraph {
     margin: 20px;
   }
-  
-  aside .unused-filters {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  aside .filter {
-    color: azure;
-    padding: 5px;
-    border-radius: 5px;
-    margin: 5px;
-    display: flex;
-  }
-  
-  aside .filter input[type="checkbox"] {
-    appearance: none;
-    background-color: transparent;
-    width: 20px;
-    height: 20px;
-    background-size: cover;
-    border: none;
-    margin-right: 5px;
-    filter: invert(100%);
-  }
-  
-  aside .filter input[type="checkbox"]:hover {
-    filter: invert(90%);
-  }
-  
-  aside .current-filters .filter {
-    background: rgb(84, 84, 161);
-  }
-  
-  aside .unused-filters .filter {
-    background: rgb(161, 127, 127);
-  }
-  
-  aside .current-filters input[type="checkbox"] {
-    background-image: url("../assets/images/close.svg");
-  }
-  
-  aside .unused-filters .filter input[type="checkbox"] {
-    background-image: url("../assets/images/plus.svg");
-  }
-  
-  label[for="search-bar"] {
-    display: block;
-    width: 30px;
-    height: 30px;
-    background-color: red;
-    background-image: url("../assets/images/magnify.svg");
-    background-size: cover;
-  }
-  
-  aside .nothing-found {
-    display: none;
-    background: rgb(230, 116, 116);
-    color: rgb(30, 33, 38);
-    border-radius: 10px;
-    padding: 10px;
-    font-size: 2rem;
-  
-  }
-  
-  .open-aside {
-    background: purple;
-    width: 50px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 100px;
-    right: -50px;
-    z-index: 10;
-    transition: all 0.33s;
-  }
-  
-  .close-aside {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    width: 40px;
-    height: 40px;
-    background-image: url("../assets/images/close.svg");
-    background-size: cover;
-    background-color: transparent;
-    border: none;
-    transition: all 0.33s;
-  }
-  
-  .close-aside:hover {
-    transform: rotate(90deg);
-  }
-  
-  aside .seraph {
-    width: 100%;
-    border-bottom: 4px dotted red;
-    margin: 10px 0 50px 0;
-  }
-  
-  @media screen and (max-width: 500px) {
-    aside {
-      top: auto;
-      padding: 10px;
-      width: 95%;
-      height: fit-content;
-    }
-  
-    aside .seraph {
-      margin: 20px;
-    }
-  }
+}

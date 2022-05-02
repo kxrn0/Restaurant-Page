@@ -55,6 +55,7 @@
 
 .menu-item .description {
     color: gray;
+    margin: 10px 0; 
 }
 
 .menu-item .price {
@@ -76,6 +77,10 @@
 }
 
 @media screen and (max-width: 600px) {
+    .menu {
+        padding-top: 50px;
+    }
+
     .menu-item {
         width: 300px;
     }

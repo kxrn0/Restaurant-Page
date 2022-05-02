@@ -437,9 +437,6 @@ export const menuObj = (
         }
 
         function switch_to_menu(main) {
-            // display: flex;
-            // flex-direction: column;
-            // align-items: center;
             main.style.display = "block";
             main.innerHTML = '';
             main.append(menu);

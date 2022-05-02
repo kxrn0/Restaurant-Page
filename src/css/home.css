@@ -1,0 +1,116 @@
+main {
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .text {
+    background: rgb(3, 18, 47, .5);
+    color: azure;
+    border-radius: 10px;
+    padding: 20px;
+    width: 50%;
+    margin: 20px;
+    text-align: center;
+}
+
+main .text h2 {
+    font-size: 5rem;
+}
+
+main .info {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+main .info > div {
+    padding: 20px;
+    min-width: 250px;
+    border-radius: 10px;
+}
+
+main .info .hours {
+    background: rgb(3, 18, 47, .5);
+    color: azure;
+    font-size: 1.15rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+}
+
+main .hours p {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .hours span {
+    margin-left: 10px;
+}
+
+main .hours img {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3; 
+    width: 30px;
+    margin-right: 10px;
+    filter: invert(88%) sepia(9%) saturate(1076%) hue-rotate(287deg) brightness(98%) contrast(92%);
+}
+
+main .location {
+    background: rgb(3, 18, 47, .5);
+    color: azure;
+    display: flex;
+    align-items: center;
+}
+
+main .location img {
+    width: 30px;
+    margin-right: 10px;
+    filter: invert(88%) sepia(9%) saturate(1076%) hue-rotate(287deg) brightness(98%) contrast(92%);
+}
+
+main .company-logo {
+    background: rgba(255, 205, 199, 0.5);
+    margin: 20px;
+    width: 210px;
+    border-radius: 10px;;
+    padding: 10px;
+    filter: invert(100%);
+}
+
+@media screen and (max-width: 900px) {
+    main {
+        background-position: 0;
+    }
+
+    main .text {
+        width: 90%;
+    }
+
+    main .text h2 {
+        font-size: 2rem;
+    }
+
+    main .info {
+        flex-direction: column;
+    }
+
+    main .info > div {
+        margin-bottom: 20px;
+    }
+
+    main .hours span {
+        margin-left: 0;
+    }
+
+    main .company-logo {
+        margin-bottom: 50px;
+    }
+}
