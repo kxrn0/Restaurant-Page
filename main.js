@@ -116,7 +116,34 @@ var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".card {\n    margin: 20px;\n    background-color: transparent;\n    width: 300px;\n    height: 400px;\n    perspective: 1000px;\n    font-family: Helvetica, monospace, sans-serif;\n}\n\n.card-content {\n    position: relative;\n    width: 100%;\n    height: 100%;\n    text-align: center;\n    transform-style: preserve-3d;\n    box-shadow: 0 4px 8px 0 rgb(170, 160, 160);\n    border-radius: 10px;\n}\n\n.unflipped {\n    animation: 0.5s ease 1 forwards unflipped;\n}\n\n.flipped {\n    animation: 0.5s ease 1 forwards flipped;\n}\n\n@keyframes unflipped {\n    to {\n        transform: rotateY(-360deg);\n    }\n}\n\n@keyframes flipped {\n    to {\n        transform: rotateY(540deg);\n    }\n}\n\n.front-face img {\n    width: 250px;\n    height: 250px;\n    object-fit: cover;\n    border-radius: 10px;\n    box-shadow: 0 3px 1px 2px rgb(129, 117, 117);\n}\n\n.front-face h2 {\n    margin: 20px 0 0 0;\n    font-size: 1.75rem;\n    color: rgb(68, 9, 17);\n}\n\n.front-face p {\n    font-size: 1.15rem;\n}\n\n.front-face button {\n    background: rgb(77, 105, 169);\n    color: azure;\n    font-size: 1.15rem;\n    border: none;\n    border-radius: 5px;\n    padding: 5px;\n    margin: 20px;\n}\n\n.front-face,\n.back-face {\n    position: absolute;\n    width: 100%;\n    height: 100%;\n    backface-visibility: hidden;\n    border-radius: 10px;\n}\n\n.front-face {\n    padding: 20px;\n    background: rgb(156, 168, 238);\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n}\n\n.back-face {\n    background-color: #ccd2ee;\n    transform: rotateY(180deg);\n    padding: 20px;\n    font-size: 1.15rem;\n    position: relative;\n}\n\n.back-face button {\n    margin: 10px;\n    width: 30px;\n    height: 30px;\n    background-color: transparent;\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n    background-size: cover;\n    border: none;\n    position: absolute;\n    margin-left: auto;\n    margin-right: auto;\n    left: 0;\n    right: 0;\n    bottom: 10px;\n    text-align: center;\n}", "",{"version":3,"sources":["webpack://./src/css/card.css"],"names":[],"mappings":"AAAA;IACI,YAAY;IACZ,6BAA6B;IAC7B,YAAY;IACZ,aAAa;IACb,mBAAmB;IACnB,6CAA6C;AACjD;;AAEA;IACI,kBAAkB;IAClB,WAAW;IACX,YAAY;IACZ,kBAAkB;IAClB,4BAA4B;IAC5B,0CAA0C;IAC1C,mBAAmB;AACvB;;AAEA;IACI,yCAAyC;AAC7C;;AAEA;IACI,uCAAuC;AAC3C;;AAEA;IACI;QACI,2BAA2B;IAC/B;AACJ;;AAEA;IACI;QACI,0BAA0B;IAC9B;AACJ;;AAEA;IACI,YAAY;IACZ,aAAa;IACb,iBAAiB;IACjB,mBAAmB;IACnB,4CAA4C;AAChD;;AAEA;IACI,kBAAkB;IAClB,kBAAkB;IAClB,qBAAqB;AACzB;;AAEA;IACI,kBAAkB;AACtB;;AAEA;IACI,6BAA6B;IAC7B,YAAY;IACZ,kBAAkB;IAClB,YAAY;IACZ,kBAAkB;IAClB,YAAY;IACZ,YAAY;AAChB;;AAEA;;IAEI,kBAAkB;IAClB,WAAW;IACX,YAAY;IACZ,2BAA2B;IAC3B,mBAAmB;AACvB;;AAEA;IACI,aAAa;IACb,8BAA8B;IAC9B,aAAa;IACb,sBAAsB;IACtB,mBAAmB;AACvB;;AAEA;IACI,yBAAyB;IACzB,0BAA0B;IAC1B,aAAa;IACb,kBAAkB;IAClB,kBAAkB;AACtB;;AAEA;IACI,YAAY;IACZ,WAAW;IACX,YAAY;IACZ,6BAA6B;IAC7B,yDAAoD;IACpD,sBAAsB;IACtB,YAAY;IACZ,kBAAkB;IAClB,iBAAiB;IACjB,kBAAkB;IAClB,OAAO;IACP,QAAQ;IACR,YAAY;IACZ,kBAAkB;AACtB","sourcesContent":[".card {\n    margin: 20px;\n    background-color: transparent;\n    width: 300px;\n    height: 400px;\n    perspective: 1000px;\n    font-family: Helvetica, monospace, sans-serif;\n}\n\n.card-content {\n    position: relative;\n    width: 100%;\n    height: 100%;\n    text-align: center;\n    transform-style: preserve-3d;\n    box-shadow: 0 4px 8px 0 rgb(170, 160, 160);\n    border-radius: 10px;\n}\n\n.unflipped {\n    animation: 0.5s ease 1 forwards unflipped;\n}\n\n.flipped {\n    animation: 0.5s ease 1 forwards flipped;\n}\n\n@keyframes unflipped {\n    to {\n        transform: rotateY(-360deg);\n    }\n}\n\n@keyframes flipped {\n    to {\n        transform: rotateY(540deg);\n    }\n}\n\n.front-face img {\n    width: 250px;\n    height: 250px;\n    object-fit: cover;\n    border-radius: 10px;\n    box-shadow: 0 3px 1px 2px rgb(129, 117, 117);\n}\n\n.front-face h2 {\n    margin: 20px 0 0 0;\n    font-size: 1.75rem;\n    color: rgb(68, 9, 17);\n}\n\n.front-face p {\n    font-size: 1.15rem;\n}\n\n.front-face button {\n    background: rgb(77, 105, 169);\n    color: azure;\n    font-size: 1.15rem;\n    border: none;\n    border-radius: 5px;\n    padding: 5px;\n    margin: 20px;\n}\n\n.front-face,\n.back-face {\n    position: absolute;\n    width: 100%;\n    height: 100%;\n    backface-visibility: hidden;\n    border-radius: 10px;\n}\n\n.front-face {\n    padding: 20px;\n    background: rgb(156, 168, 238);\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n}\n\n.back-face {\n    background-color: #ccd2ee;\n    transform: rotateY(180deg);\n    padding: 20px;\n    font-size: 1.15rem;\n    position: relative;\n}\n\n.back-face button {\n    margin: 10px;\n    width: 30px;\n    height: 30px;\n    background-color: transparent;\n    background-image: url(\"../assets/images/return.svg\");\n    background-size: cover;\n    border: none;\n    position: absolute;\n    margin-left: auto;\n    margin-right: auto;\n    left: 0;\n    right: 0;\n    bottom: 10px;\n    text-align: center;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".card {\n    margin: 20px;\n    background-color: transparent;\n    width: 325px;\n    height: 425px;\n    perspective: 1000px;\n    font-family: Helvetica, monospace, sans-serif;\n}\n\n.card-content {\n    position: relative;\n    width: 100%;\n    height: 100%;\n    text-align: center;\n    transform-style: preserve-3d;\n    box-shadow: 0 4px 8px 0 rgb(170, 160, 160);\n    border-radius: 10px;\n}\n\n.unflipped {\n    animation: 0.5s ease 1 forwards unflipped;\n}\n\n.flipped {\n    animation: 0.5s ease 1 forwards flipped;\n}\n\n@keyframes unflipped {\n    to {\n        transform: rotateY(-360deg);\n    }\n}\n\n@keyframes flipped {\n    to {\n        transform: rotateY(540deg);\n    }\n}\n\n.front-face img {\n    height: 250px;\n    width: 250px;\n    object-fit: cover;\n    border-radius: 10px;\n    box-shadow: 0 3px 1px 2px rgb(129, 117, 117);\n}\n\n.front-face h2 {\n    margin: 20px 0 0 0;\n    font-size: 1.75rem;\n    color: rgb(68, 9, 17);\n}\n\n.front-face p {\n    font-size: 1.15rem;\n}\n\n.front-face button {\n    background: rgb(77, 105, 169);\n    color: azure;\n    font-size: 1.15rem;\n    border: none;\n    border-radius: 5px;\n    padding: 5px;\n    position: absolute;\n    bottom: 10px;\n}\n\n.front-face,\n.back-face {\n    position: absolute;\n    width: 100%;\n    height: 100%;\n    backface-visibility: hidden;\n    border-radius: 10px;\n}\n\n.front-face {\n    padding: 20px;\n    background: rgb(156, 168, 238);\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n}\n\n.back-face {\n    background-color: #ccd2ee;\n    transform: rotateY(180deg);\n    padding: 20px;\n    font-size: 1.15rem;\n    position: relative;\n}\n\n.back-face button {\n    margin: 10px;\n    width: 30px;\n    height: 30px;\n    background-color: transparent;\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n    background-size: cover;\n    border: none;\n    position: absolute;\n    margin-left: auto;\n    margin-right: auto;\n    left: 0;\n    right: 0;\n    bottom: 10px;\n    text-align: center;\n}", "",{"version":3,"sources":["webpack://./src/css/card.css"],"names":[],"mappings":"AAAA;IACI,YAAY;IACZ,6BAA6B;IAC7B,YAAY;IACZ,aAAa;IACb,mBAAmB;IACnB,6CAA6C;AACjD;;AAEA;IACI,kBAAkB;IAClB,WAAW;IACX,YAAY;IACZ,kBAAkB;IAClB,4BAA4B;IAC5B,0CAA0C;IAC1C,mBAAmB;AACvB;;AAEA;IACI,yCAAyC;AAC7C;;AAEA;IACI,uCAAuC;AAC3C;;AAEA;IACI;QACI,2BAA2B;IAC/B;AACJ;;AAEA;IACI;QACI,0BAA0B;IAC9B;AACJ;;AAEA;IACI,aAAa;IACb,YAAY;IACZ,iBAAiB;IACjB,mBAAmB;IACnB,4CAA4C;AAChD;;AAEA;IACI,kBAAkB;IAClB,kBAAkB;IAClB,qBAAqB;AACzB;;AAEA;IACI,kBAAkB;AACtB;;AAEA;IACI,6BAA6B;IAC7B,YAAY;IACZ,kBAAkB;IAClB,YAAY;IACZ,kBAAkB;IAClB,YAAY;IACZ,kBAAkB;IAClB,YAAY;AAChB;;AAEA;;IAEI,kBAAkB;IAClB,WAAW;IACX,YAAY;IACZ,2BAA2B;IAC3B,mBAAmB;AACvB;;AAEA;IACI,aAAa;IACb,8BAA8B;IAC9B,aAAa;IACb,sBAAsB;IACtB,mBAAmB;AACvB;;AAEA;IACI,yBAAyB;IACzB,0BAA0B;IAC1B,aAAa;IACb,kBAAkB;IAClB,kBAAkB;AACtB;;AAEA;IACI,YAAY;IACZ,WAAW;IACX,YAAY;IACZ,6BAA6B;IAC7B,yDAAoD;IACpD,sBAAsB;IACtB,YAAY;IACZ,kBAAkB;IAClB,iBAAiB;IACjB,kBAAkB;IAClB,OAAO;IACP,QAAQ;IACR,YAAY;IACZ,kBAAkB;AACtB","sourcesContent":[".card {\n    margin: 20px;\n    background-color: transparent;\n    width: 325px;\n    height: 425px;\n    perspective: 1000px;\n    font-family: Helvetica, monospace, sans-serif;\n}\n\n.card-content {\n    position: relative;\n    width: 100%;\n    height: 100%;\n    text-align: center;\n    transform-style: preserve-3d;\n    box-shadow: 0 4px 8px 0 rgb(170, 160, 160);\n    border-radius: 10px;\n}\n\n.unflipped {\n    animation: 0.5s ease 1 forwards unflipped;\n}\n\n.flipped {\n    animation: 0.5s ease 1 forwards flipped;\n}\n\n@keyframes unflipped {\n    to {\n        transform: rotateY(-360deg);\n    }\n}\n\n@keyframes flipped {\n    to {\n        transform: rotateY(540deg);\n    }\n}\n\n.front-face img {\n    height: 250px;\n    width: 250px;\n    object-fit: cover;\n    border-radius: 10px;\n    box-shadow: 0 3px 1px 2px rgb(129, 117, 117);\n}\n\n.front-face h2 {\n    margin: 20px 0 0 0;\n    font-size: 1.75rem;\n    color: rgb(68, 9, 17);\n}\n\n.front-face p {\n    font-size: 1.15rem;\n}\n\n.front-face button {\n    background: rgb(77, 105, 169);\n    color: azure;\n    font-size: 1.15rem;\n    border: none;\n    border-radius: 5px;\n    padding: 5px;\n    position: absolute;\n    bottom: 10px;\n}\n\n.front-face,\n.back-face {\n    position: absolute;\n    width: 100%;\n    height: 100%;\n    backface-visibility: hidden;\n    border-radius: 10px;\n}\n\n.front-face {\n    padding: 20px;\n    background: rgb(156, 168, 238);\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n}\n\n.back-face {\n    background-color: #ccd2ee;\n    transform: rotateY(180deg);\n    padding: 20px;\n    font-size: 1.15rem;\n    position: relative;\n}\n\n.back-face button {\n    margin: 10px;\n    width: 30px;\n    height: 30px;\n    background-color: transparent;\n    background-image: url(\"../assets/images/return.svg\");\n    background-size: cover;\n    border: none;\n    position: absolute;\n    margin-left: auto;\n    margin-right: auto;\n    left: 0;\n    right: 0;\n    bottom: 10px;\n    text-align: center;\n}"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/css/contact.css":
+/*!*******************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/css/contact.css ***!
+  \*******************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/sourceMaps.js */ "./node_modules/css-loader/dist/runtime/sourceMaps.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".reach-out {\n    background: rgba(14, 14, 36, 0.5);\n    color: azure;\n    margin-top: 20px;\n    border-radius: 10px;\n    padding: 20px;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    text-align: center;\n}\n\n.reach-out > h2 {\n    font-size: 2rem;\n}\n\n.reach-out > p {\n    width: 500px;\n    margin: 20px;\n}\n\n.reach-out ul {\n    list-style: none;\n}\n\n.reach-out li {\n    text-align: start;\n    margin: 20px;\n}\n\n.reach-out .switch {\n    color: black;\n}\n\n.reach-out input {\n    width: 90%;\n    padding: 5px;\n    border-radius: 5px;\n    border: none;\n}\n\n.reach-out button[type=\"submit\"] {\n    background: greenyellow;\n    padding: 10px 20px;\n    font-size: 1.25rem;\n    border: none;\n    border-radius: 5px;\n}\n\n.reach-out button[type=\"submit\"]:hover {\n    background: rgb(146, 223, 30);\n}\n\n.reach-out button[type=\"submit\"]:active {\n    background: rgb(86, 199, 20);\n    transform: scale(.99);\n}\n\n.reach-out textarea {\n    display: block;\n    border-radius: 5px;\n    padding: 5px;\n}\n\n@media screen and (max-width: 500px) {\n    .reach-out {\n        padding: 10px;\n        margin-bottom: 70px;\n    }\n\n    .reach-out > p {\n        width: 300px;\n        margin: 5px;\n    }\n\n    .reach-out li {\n        margin: 10px 20px;\n    }\n}", "",{"version":3,"sources":["webpack://./src/css/contact.css"],"names":[],"mappings":"AAAA;IACI,iCAAiC;IACjC,YAAY;IACZ,gBAAgB;IAChB,mBAAmB;IACnB,aAAa;IACb,aAAa;IACb,sBAAsB;IACtB,uBAAuB;IACvB,mBAAmB;IACnB,kBAAkB;AACtB;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,YAAY;IACZ,YAAY;AAChB;;AAEA;IACI,gBAAgB;AACpB;;AAEA;IACI,iBAAiB;IACjB,YAAY;AAChB;;AAEA;IACI,YAAY;AAChB;;AAEA;IACI,UAAU;IACV,YAAY;IACZ,kBAAkB;IAClB,YAAY;AAChB;;AAEA;IACI,uBAAuB;IACvB,kBAAkB;IAClB,kBAAkB;IAClB,YAAY;IACZ,kBAAkB;AACtB;;AAEA;IACI,6BAA6B;AACjC;;AAEA;IACI,4BAA4B;IAC5B,qBAAqB;AACzB;;AAEA;IACI,cAAc;IACd,kBAAkB;IAClB,YAAY;AAChB;;AAEA;IACI;QACI,aAAa;QACb,mBAAmB;IACvB;;IAEA;QACI,YAAY;QACZ,WAAW;IACf;;IAEA;QACI,iBAAiB;IACrB;AACJ","sourcesContent":[".reach-out {\n    background: rgba(14, 14, 36, 0.5);\n    color: azure;\n    margin-top: 20px;\n    border-radius: 10px;\n    padding: 20px;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    text-align: center;\n}\n\n.reach-out > h2 {\n    font-size: 2rem;\n}\n\n.reach-out > p {\n    width: 500px;\n    margin: 20px;\n}\n\n.reach-out ul {\n    list-style: none;\n}\n\n.reach-out li {\n    text-align: start;\n    margin: 20px;\n}\n\n.reach-out .switch {\n    color: black;\n}\n\n.reach-out input {\n    width: 90%;\n    padding: 5px;\n    border-radius: 5px;\n    border: none;\n}\n\n.reach-out button[type=\"submit\"] {\n    background: greenyellow;\n    padding: 10px 20px;\n    font-size: 1.25rem;\n    border: none;\n    border-radius: 5px;\n}\n\n.reach-out button[type=\"submit\"]:hover {\n    background: rgb(146, 223, 30);\n}\n\n.reach-out button[type=\"submit\"]:active {\n    background: rgb(86, 199, 20);\n    transform: scale(.99);\n}\n\n.reach-out textarea {\n    display: block;\n    border-radius: 5px;\n    padding: 5px;\n}\n\n@media screen and (max-width: 500px) {\n    .reach-out {\n        padding: 10px;\n        margin-bottom: 70px;\n    }\n\n    .reach-out > p {\n        width: 300px;\n        margin: 5px;\n    }\n\n    .reach-out li {\n        margin: 10px 20px;\n    }\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -243,9 +270,9 @@ ___CSS_LOADER_EXPORT___.push([module.id, "*,\n*::before,\n*::after {\n    margin
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./src/css/toggle.css":
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/css/switch.css":
 /*!******************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/css/toggle.css ***!
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/css/switch.css ***!
   \******************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
@@ -263,7 +290,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".check-container {\n  --width: 52px;\n  --height: 28px;\n  --span-radius: 20px;\n  --padding: calc(0.5 * (var(--height) - var(--span-radius)));\n  --off-bg: rgb(201 213 213);\n  --on-bg: rgb(24, 182, 103);\n  --off-span-bg: rgb(122 115 115);\n  --on-span-bg: rgb(246, 250, 255);\n  position: relative;\n  border-radius: 16px;\n  width: var(--width);\n  height: var(--height);\n}\n\n.check-container * {\n  transition: all 0.33s;\n}\n\n.check-container input[type=\"checkbox\"] {\n  background: var(--off-bg);\n  border-radius: var(--height);\n  appearance: none;\n  width: 100%;\n  height: 100%;\n}\n\n.check-container span {\n  background: var(--off-span-bg);\n  position: absolute;\n  width: var(--span-radius);\n  height: var(--span-radius);\n  top: var(--padding);\n  left: var(--padding);\n  border-radius: 50%;\n  pointer-events: none;\n}\n\n.check-container input[type=\"checkbox\"]:checked {\n  background: var(--on-bg);\n}\n\n.check-container input[type=\"checkbox\"]:checked + span {\n  transform: translateX(\n    calc(var(--width) - 2 * var(--padding) - var(--span-radius))\n  );\n  background: var(--on-span-bg);\n}\n", "",{"version":3,"sources":["webpack://./src/css/toggle.css"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,cAAc;EACd,mBAAmB;EACnB,2DAA2D;EAC3D,0BAA0B;EAC1B,0BAA0B;EAC1B,+BAA+B;EAC/B,gCAAgC;EAChC,kBAAkB;EAClB,mBAAmB;EACnB,mBAAmB;EACnB,qBAAqB;AACvB;;AAEA;EACE,qBAAqB;AACvB;;AAEA;EACE,yBAAyB;EACzB,4BAA4B;EAC5B,gBAAgB;EAChB,WAAW;EACX,YAAY;AACd;;AAEA;EACE,8BAA8B;EAC9B,kBAAkB;EAClB,yBAAyB;EACzB,0BAA0B;EAC1B,mBAAmB;EACnB,oBAAoB;EACpB,kBAAkB;EAClB,oBAAoB;AACtB;;AAEA;EACE,wBAAwB;AAC1B;;AAEA;EACE;;GAEC;EACD,6BAA6B;AAC/B","sourcesContent":[".check-container {\n  --width: 52px;\n  --height: 28px;\n  --span-radius: 20px;\n  --padding: calc(0.5 * (var(--height) - var(--span-radius)));\n  --off-bg: rgb(201 213 213);\n  --on-bg: rgb(24, 182, 103);\n  --off-span-bg: rgb(122 115 115);\n  --on-span-bg: rgb(246, 250, 255);\n  position: relative;\n  border-radius: 16px;\n  width: var(--width);\n  height: var(--height);\n}\n\n.check-container * {\n  transition: all 0.33s;\n}\n\n.check-container input[type=\"checkbox\"] {\n  background: var(--off-bg);\n  border-radius: var(--height);\n  appearance: none;\n  width: 100%;\n  height: 100%;\n}\n\n.check-container span {\n  background: var(--off-span-bg);\n  position: absolute;\n  width: var(--span-radius);\n  height: var(--span-radius);\n  top: var(--padding);\n  left: var(--padding);\n  border-radius: 50%;\n  pointer-events: none;\n}\n\n.check-container input[type=\"checkbox\"]:checked {\n  background: var(--on-bg);\n}\n\n.check-container input[type=\"checkbox\"]:checked + span {\n  transform: translateX(\n    calc(var(--width) - 2 * var(--padding) - var(--span-radius))\n  );\n  background: var(--on-span-bg);\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".switch {\n    position: relative;\n    height: 60px;\n  }\n  \n  .switch input[type=\"email\"],\n  .switch input[type=\"tel\"] {\n    position: absolute;\n    top: 30px;\n    height: 30px;\n    padding: 5px;\n    border-radius: 5px;\n    border: none;\n  }\n  \n  .switch input[type=\"checkbox\"] ~ input[type=\"tel\"] {\n    display: none;\n  }\n  \n  .switch input[type=\"checkbox\"]:checked ~ input[type=\"tel\"] {\n    display: block;\n  }\n  \n  .switch input[type=\"checkbox\"] ~ input[type=\"email\"] {\n    display: block;\n  }\n  \n  .switch input[type=\"checkbox\"]:checked ~ input[type=\"email\"] {\n    display: none;\n  }\n  \n  .switch input[type=\"checkbox\"] {\n    background-color: rgb(219, 120, 95);\n    background-image: url(\"https://files.catbox.moe/rtcrid.svg\");\n    background-size: contain;\n    border-radius: 10px;\n    appearance: none;\n    width: 50px;\n    height: 25px;\n    position: absolute;\n    top: 0;\n    left: 0;\n    z-index: 1;\n    transition: all 0.33s;\n  }\n  \n  .switch input[type=\"checkbox\"]:checked {\n    transform: translateX(100%);\n  }\n  \n  .switch .labels {\n    background: rgb(243, 232, 234);\n    border-radius: 5px;\n    height: 25px;\n    width: 100px;\n    display: flex;\n    justify-content: space-between;\n    position: absolute;\n    top: 0;\n    left: 0;\n    z-index: 0;\n  }\n  \n  .switch label {\n    display: flex;\n    align-items: center;\n  }", "",{"version":3,"sources":["webpack://./src/css/switch.css"],"names":[],"mappings":"AAAA;IACI,kBAAkB;IAClB,YAAY;EACd;;EAEA;;IAEE,kBAAkB;IAClB,SAAS;IACT,YAAY;IACZ,YAAY;IACZ,kBAAkB;IAClB,YAAY;EACd;;EAEA;IACE,aAAa;EACf;;EAEA;IACE,cAAc;EAChB;;EAEA;IACE,cAAc;EAChB;;EAEA;IACE,aAAa;EACf;;EAEA;IACE,mCAAmC;IACnC,4DAA4D;IAC5D,wBAAwB;IACxB,mBAAmB;IACnB,gBAAgB;IAChB,WAAW;IACX,YAAY;IACZ,kBAAkB;IAClB,MAAM;IACN,OAAO;IACP,UAAU;IACV,qBAAqB;EACvB;;EAEA;IACE,2BAA2B;EAC7B;;EAEA;IACE,8BAA8B;IAC9B,kBAAkB;IAClB,YAAY;IACZ,YAAY;IACZ,aAAa;IACb,8BAA8B;IAC9B,kBAAkB;IAClB,MAAM;IACN,OAAO;IACP,UAAU;EACZ;;EAEA;IACE,aAAa;IACb,mBAAmB;EACrB","sourcesContent":[".switch {\n    position: relative;\n    height: 60px;\n  }\n  \n  .switch input[type=\"email\"],\n  .switch input[type=\"tel\"] {\n    position: absolute;\n    top: 30px;\n    height: 30px;\n    padding: 5px;\n    border-radius: 5px;\n    border: none;\n  }\n  \n  .switch input[type=\"checkbox\"] ~ input[type=\"tel\"] {\n    display: none;\n  }\n  \n  .switch input[type=\"checkbox\"]:checked ~ input[type=\"tel\"] {\n    display: block;\n  }\n  \n  .switch input[type=\"checkbox\"] ~ input[type=\"email\"] {\n    display: block;\n  }\n  \n  .switch input[type=\"checkbox\"]:checked ~ input[type=\"email\"] {\n    display: none;\n  }\n  \n  .switch input[type=\"checkbox\"] {\n    background-color: rgb(219, 120, 95);\n    background-image: url(\"https://files.catbox.moe/rtcrid.svg\");\n    background-size: contain;\n    border-radius: 10px;\n    appearance: none;\n    width: 50px;\n    height: 25px;\n    position: absolute;\n    top: 0;\n    left: 0;\n    z-index: 1;\n    transition: all 0.33s;\n  }\n  \n  .switch input[type=\"checkbox\"]:checked {\n    transform: translateX(100%);\n  }\n  \n  .switch .labels {\n    background: rgb(243, 232, 234);\n    border-radius: 5px;\n    height: 25px;\n    width: 100px;\n    display: flex;\n    justify-content: space-between;\n    position: absolute;\n    top: 0;\n    left: 0;\n    z-index: 0;\n  }\n  \n  .switch label {\n    display: flex;\n    align-items: center;\n  }"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -673,6 +700,61 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 /***/ }),
 
+/***/ "./src/css/contact.css":
+/*!*****************************!*\
+  !*** ./src/css/contact.css ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ "./node_modules/style-loader/dist/runtime/styleDomAPI.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertBySelector.js */ "./node_modules/style-loader/dist/runtime/insertBySelector.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ "./node_modules/style-loader/dist/runtime/insertStyleElement.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_contact_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!./contact.css */ "./node_modules/css-loader/dist/cjs.js!./src/css/contact.css");
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+var options = {};
+
+options.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());
+options.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());
+
+      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, "head");
+    
+options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
+options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_contact_css__WEBPACK_IMPORTED_MODULE_6__["default"], options);
+
+
+
+
+       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_contact_css__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_contact_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_contact_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
+
+
+/***/ }),
+
 /***/ "./src/css/home.css":
 /*!**************************!*\
   !*** ./src/css/home.css ***!
@@ -893,9 +975,9 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 /***/ }),
 
-/***/ "./src/css/toggle.css":
+/***/ "./src/css/switch.css":
 /*!****************************!*\
-  !*** ./src/css/toggle.css ***!
+  !*** ./src/css/switch.css ***!
   \****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -916,7 +998,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_toggle_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!./toggle.css */ "./node_modules/css-loader/dist/cjs.js!./src/css/toggle.css");
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_switch_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!./switch.css */ "./node_modules/css-loader/dist/cjs.js!./src/css/switch.css");
 
       
       
@@ -938,12 +1020,12 @@ options.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWi
 options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
 options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
 
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_toggle_css__WEBPACK_IMPORTED_MODULE_6__["default"], options);
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_switch_css__WEBPACK_IMPORTED_MODULE_6__["default"], options);
 
 
 
 
-       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_toggle_css__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_toggle_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_toggle_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
+       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_switch_css__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_switch_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_switch_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
 
 
 /***/ }),
@@ -1291,12 +1373,26 @@ const aboutObj = (
         title.innerText = "Lorem Ipsum Dolor";
         para.innerText = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, cum facilis commodi error fugiat quisoluta nihil quam! Provident, maior Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, dolorem eos. Asperiores veritatis, tenetur consectetur incidunt nihil rerum cumque itaque. es!";
 
-        for (let i = 0; i < 6; i++)
-            cards.append(create_card("Richard Stallman", 
-                                    "Manager",
-                                    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius blanditiis magni molestia lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim natus tempore repudiandae at tenetur fuga exercitationem beatae laborum, atque porro! s saepe cum suscipit impedit iste omnis ducimus praesentium!",
-                                    "./stallman.png", "stallman"));
-
+        cards.append(create_card("Richard Stallman",
+            "Manager",
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius blanditiis magni molestia lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim natus tempore repudiandae at tenetur fuga exercitationem beatae laborum, atque porro! s saepe cum suscipit impedit iste omnis ducimus praesentium!",
+            "./stallman.png", "stallman"));
+        cards.append(create_card("Terrence A. Davidson",
+            "Main Cook",
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius blanditiis magni molestia lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim natus tempore repudiandae at tenetur fuga exercitationem beatae laborum, atque porro! s saepe cum suscipit impedit iste omnis ducimus praesentium!",
+            "./terry.jpg", "terry"));
+        cards.append(create_card("Durga Sir",
+            "Weapon of GNU/Serve",
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius blanditiis magni molestia lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim natus tempore repudiandae at tenetur fuga exercitationem beatae laborum, atque porro! s saepe cum suscipit impedit iste omnis ducimus praesentium!",
+            "./durga.jpg", "durga"));
+        cards.append(create_card("Satania",
+            "Waitress",
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius blanditiis magni molestia lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim natus tempore repudiandae at tenetur fuga exercitationem beatae laborum, atque porro! s saepe cum suscipit impedit iste omnis ducimus praesentium!",
+            "./satania.png", "satania"));
+        cards.append(create_card("Luke Sneed",
+            "Feed and Seed",
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius blanditiis magni molestia lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim natus tempore repudiandae at tenetur fuga exercitationem beatae laborum, atque porro! s saepe cum suscipit impedit iste omnis ducimus praesentium!",
+            "./luke_sneed.png", "sneed"));
         function create_card(name, position, description, src, id) {
             const card = document.createElement("div");
             const content = document.createElement("div");
@@ -1378,6 +1474,125 @@ window.addEventListener("resize", () => {
         burger.checked = true;
     }
 });
+
+/***/ }),
+
+/***/ "./src/contact.js":
+/*!************************!*\
+  !*** ./src/contact.js ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "contactObj": () => (/* binding */ contactObj)
+/* harmony export */ });
+const contactObj = (
+    () => {
+        const contact = document.createElement("div");
+        const h2 = document.createElement("h2");
+        const para = document.createElement("p");
+        const form = document.createElement("form");
+        const ul = document.createElement("ul");
+        const nameli = document.createElement("li");
+        const nameLabel = document.createElement("label");
+        const nameInput = document.createElement("input");
+        const switchli = document.createElement("li");
+        const switchElem = document.createElement("div");
+        const check = document.createElement("input");
+        const labels = document.createElement("div");
+        const teLabel = document.createElement("label");
+        const emaiLabel = document.createElement("label");
+        const telInput = document.createElement("input");
+        const emaInput = document.createElement("input");
+        const subjectli = document.createElement("li");
+        const subjectLabel = document.createElement("label");
+        const subjectInput = document.createElement("input");
+        const messageli = document.createElement("li");
+        const messageLabel = document.createElement("label");
+        const messageInput = document.createElement("textarea");
+        const submitli = document.createElement("li");
+        const submitButton = document.createElement("button");
+
+        contact.append(h2);
+        contact.append(para);
+        contact.append(form);
+        form.append(ul);
+        ul.append(nameli);
+        nameli.append(nameLabel);
+        nameli.append(nameInput);
+        ul.append(switchli);
+        switchli.append(switchElem);
+        switchElem.append(check);
+        switchElem.append(labels);
+        labels.append(teLabel);
+        labels.append(emaiLabel);
+        switchElem.append(telInput);
+        switchElem.append(emaInput);
+        ul.append(subjectli);
+        subjectli.append(subjectLabel);
+        subjectli.append(subjectInput);
+        ul.append(messageli);
+        messageli.append(messageLabel);
+        messageli.append(messageInput);
+        ul.append(submitli);
+        submitli.append(submitButton);
+        
+        contact.classList.add("reach-out");
+        switchElem.classList.add("switch");
+        labels.classList.add("labels");
+
+        h2.innerText = "Contact";
+        para.innerText = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores officiis nesciunt nam molestiae consequatur maiores enim sit amet. Po Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam possimus similique nam consequatur repudiandae dolor? Aut porro placeat harum deleniti! ssimus, maiores.";
+        nameLabel.innerText = "Name";
+        nameInput.setAttribute("type", "text");
+        nameInput.setAttribute("name", "user-name");
+        nameInput.required = true;
+        check.setAttribute("type", "checkbox");
+        teLabel.setAttribute("for", "telephone");
+        teLabel.innerText = "Phone";
+        emaiLabel.setAttribute("name", "user-email");
+        emaiLabel.innerText = "Email";
+        telInput.setAttribute("type", "tel");
+        telInput.setAttribute("name", "telephone")
+        telInput.setAttribute("pattern", "\\(?\\d{3}\\)?[\\s.-]?\\d{3}[\\s.-]?\\d{4}");
+        emaInput.setAttribute("type", "email")
+        emaInput.setAttribute("name", "user-email");
+        emaInput.setAttribute("pattern", "\\w+@\\w+\\.com");
+        emaInput.required = true;
+        subjectLabel.setAttribute("for", "subject");
+        subjectLabel.innerText = "Subject";
+        subjectInput.setAttribute("type", "text");
+        subjectInput.setAttribute("name", "subject");
+        subjectInput.required = true;
+        messageLabel.setAttribute("for", "message");
+        messageLabel.innerText = "Message";
+        messageInput.setAttribute("name", "message");
+        messageInput.setAttribute("cols", "30");
+        messageInput.setAttribute("rows", "10");
+        submitButton.setAttribute("type", "submit");
+        submitButton.innerText = "Send";
+
+        check.addEventListener("click", () => {
+            if (check.checked) {
+                emaInput.required = false;
+                telInput.required = true;
+            }
+            else {
+                emaInput.required = true;
+                telInput.required = false;
+            }
+        });
+        
+        function switch_to_contact(main) {
+            main.style.display = "flex";
+            main.innerHTML = '';
+            main.append(contact);
+        }
+        return { switch_to_contact }
+    }
+)();
 
 /***/ }),
 
@@ -1469,24 +1684,46 @@ const homeObj = (
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./css/normalize.css */ "./src/css/normalize.css");
 /* harmony import */ var _css_burger_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./css/burger.css */ "./src/css/burger.css");
-/* harmony import */ var _css_toggle_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./css/toggle.css */ "./src/css/toggle.css");
-/* harmony import */ var _css_styles_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./css/styles.css */ "./src/css/styles.css");
-/* harmony import */ var _css_home_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./css/home.css */ "./src/css/home.css");
-/* harmony import */ var _css_aside_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./css/aside.css */ "./src/css/aside.css");
-/* harmony import */ var _css_menu_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./css/menu.css */ "./src/css/menu.css");
-/* harmony import */ var _css_card_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./css/card.css */ "./src/css/card.css");
-/* harmony import */ var _css_about_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./css/about.css */ "./src/css/about.css");
-/* harmony import */ var _burger_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./burger.js */ "./src/burger.js");
-/* harmony import */ var _burger_js__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_burger_js__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _assets_images_gnu_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./assets/images/gnu.svg */ "./src/assets/images/gnu.svg");
-/* harmony import */ var _assets_images_background_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./assets/images/background.jpg */ "./src/assets/images/background.jpg");
-/* harmony import */ var _assets_images_clock_svg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./assets/images/clock.svg */ "./src/assets/images/clock.svg");
-/* harmony import */ var _assets_images_location_svg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./assets/images/location.svg */ "./src/assets/images/location.svg");
-/* harmony import */ var _assets_images_close_svg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./assets/images/close.svg */ "./src/assets/images/close.svg");
-/* harmony import */ var _assets_images_magnify_svg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./assets/images/magnify.svg */ "./src/assets/images/magnify.svg");
-/* harmony import */ var _assets_images_plus_svg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./assets/images/plus.svg */ "./src/assets/images/plus.svg");
-/* harmony import */ var _assets_images_profiles_stallman_png__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./assets/images/profiles/stallman.png */ "./src/assets/images/profiles/stallman.png");
+/* harmony import */ var _css_styles_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./css/styles.css */ "./src/css/styles.css");
+/* harmony import */ var _css_home_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./css/home.css */ "./src/css/home.css");
+/* harmony import */ var _css_aside_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./css/aside.css */ "./src/css/aside.css");
+/* harmony import */ var _css_menu_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./css/menu.css */ "./src/css/menu.css");
+/* harmony import */ var _css_card_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./css/card.css */ "./src/css/card.css");
+/* harmony import */ var _css_about_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./css/about.css */ "./src/css/about.css");
+/* harmony import */ var _css_switch_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./css/switch.css */ "./src/css/switch.css");
+/* harmony import */ var _css_contact_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./css/contact.css */ "./src/css/contact.css");
+/* harmony import */ var _burger_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./burger.js */ "./src/burger.js");
+/* harmony import */ var _burger_js__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_burger_js__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _assets_images_gnu_svg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./assets/images/gnu.svg */ "./src/assets/images/gnu.svg");
+/* harmony import */ var _assets_images_background_jpg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./assets/images/background.jpg */ "./src/assets/images/background.jpg");
+/* harmony import */ var _assets_images_clock_svg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./assets/images/clock.svg */ "./src/assets/images/clock.svg");
+/* harmony import */ var _assets_images_location_svg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./assets/images/location.svg */ "./src/assets/images/location.svg");
+/* harmony import */ var _assets_images_close_svg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./assets/images/close.svg */ "./src/assets/images/close.svg");
+/* harmony import */ var _assets_images_magnify_svg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./assets/images/magnify.svg */ "./src/assets/images/magnify.svg");
+/* harmony import */ var _assets_images_plus_svg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./assets/images/plus.svg */ "./src/assets/images/plus.svg");
 /* harmony import */ var _assets_images_return_svg__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./assets/images/return.svg */ "./src/assets/images/return.svg");
+/* harmony import */ var _assets_images_profiles_stallman_png__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./assets/images/profiles/stallman.png */ "./src/assets/images/profiles/stallman.png");
+/* harmony import */ var _assets_images_profiles_terry_jpg__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./assets/images/profiles/terry.jpg */ "./src/assets/images/profiles/terry.jpg");
+/* harmony import */ var _assets_images_profiles_durga_jpg__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./assets/images/profiles/durga.jpg */ "./src/assets/images/profiles/durga.jpg");
+/* harmony import */ var _assets_images_profiles_satania_png__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./assets/images/profiles/satania.png */ "./src/assets/images/profiles/satania.png");
+/* harmony import */ var _assets_images_profiles_luke_sneed_png__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./assets/images/profiles/luke_sneed.png */ "./src/assets/images/profiles/luke_sneed.png");
+/* harmony import */ var _assets_images_dishes_garlic_shrimp_jpg__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./assets/images/dishes/garlic_shrimp.jpg */ "./src/assets/images/dishes/garlic_shrimp.jpg");
+/* harmony import */ var _assets_images_dishes_fried_rice_jpg__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./assets/images/dishes/fried_rice.jpg */ "./src/assets/images/dishes/fried_rice.jpg");
+/* harmony import */ var _assets_images_dishes_engin_akyurt_jpg__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./assets/images/dishes/engin_akyurt.jpg */ "./src/assets/images/dishes/engin_akyurt.jpg");
+/* harmony import */ var _assets_images_dishes_cawfee_jpg__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./assets/images/dishes/cawfee.jpg */ "./src/assets/images/dishes/cawfee.jpg");
+/* harmony import */ var _assets_images_dishes_cats_jpg__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./assets/images/dishes/cats.jpg */ "./src/assets/images/dishes/cats.jpg");
+/* harmony import */ var _assets_images_dishes_adoi_wine_jpg__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./assets/images/dishes/adoi_wine.jpg */ "./src/assets/images/dishes/adoi_wine.jpg");
+/* harmony import */ var _assets_images_dishes_bread_with_soup_jpg__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./assets/images/dishes/bread_with_soup.jpg */ "./src/assets/images/dishes/bread_with_soup.jpg");
+/* harmony import */ var _assets_images_dishes_shake_jpg__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./assets/images/dishes/shake.jpg */ "./src/assets/images/dishes/shake.jpg");
+/* harmony import */ var _assets_images_dishes_cats_curry_jpg__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./assets/images/dishes/cats_curry.jpg */ "./src/assets/images/dishes/cats_curry.jpg");
+/* harmony import */ var _assets_images_dishes_soup_jpg__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./assets/images/dishes/soup.jpg */ "./src/assets/images/dishes/soup.jpg");
+/* harmony import */ var _assets_images_dishes_daniel_jpg__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./assets/images/dishes/daniel.jpg */ "./src/assets/images/dishes/daniel.jpg");
+/* harmony import */ var _assets_images_dishes_walrus_jpg__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./assets/images/dishes/walrus.jpg */ "./src/assets/images/dishes/walrus.jpg");
+/* harmony import */ var _assets_images_dishes_fried_ozz_jpg__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./assets/images/dishes/fried_ozz.jpg */ "./src/assets/images/dishes/fried_ozz.jpg");
+/* harmony import */ var _assets_images_dishes_sushi_jpg__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./assets/images/dishes/sushi.jpg */ "./src/assets/images/dishes/sushi.jpg");
+/* harmony import */ var _assets_images_dishes_traditional_japanese_sake_jpg__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ./assets/images/dishes/traditional_japanese_sake.jpg */ "./src/assets/images/dishes/traditional_japanese_sake.jpg");
+/* harmony import */ var _assets_images_dishes_fiery_noodles_jpg__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ./assets/images/dishes/fiery_noodles.jpg */ "./src/assets/images/dishes/fiery_noodles.jpg");
+/* harmony import */ var _assets_images_dishes_kotton_buro_jpg__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ./assets/images/dishes/kotton_buro.jpg */ "./src/assets/images/dishes/kotton_buro.jpg");
 
 
 
@@ -1495,6 +1732,31 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ------------------------------about-----------------------------------
+
+
+
+
+
+
+// -------------------------------dishes----------------------------------
 
 
 
@@ -1556,186 +1818,323 @@ const menuObj = (
     () => {
         const sections = [
             {
-                name: "Night",
+                name: "Breakfast",
                 items: [
+                     /**
+ * chinese
+ * indian
+ * spicy
+ * sweet
+ * soup
+ * libre
+ * pythonic
+ * interdisciplinary
+ * breast milk
+ * sinjke
+ * japanese
+ * sea food
+ * procedurally generated
+ * fresh
+ * sour
+ * selective
+ * hard salt
+ * modular
+ * OOP
+ * soft
+ * alcohol
+ */
                     {
-                        name: "1 2 3",
-                        src: "./background.jpg",
+                        name: "Cawfee",
+                        src: "./walrus.jpg",
                         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat necessitatibus dolorum quas e Lorem ipsum lorem2  dolor sit amet consectetur adipisicing elit. Ipsam, itaque. ligendi eum numquam aliquid laudantium dolorem magnam cupiditate",
-                        price: "$24.32",
+                        price: "$17.12",
                         filters: [
-                            "1",
-                            "2",
-                            "3",
+                            "japanese",
+                            "soft",
+                            "breast-milk",
+                            "sweet",
+                            "oop",
+                            "selective",
+                            "libre"
                         ]
                     },
                     {
-                        name: "2 4 6 8 10",
-                        src: "./background.jpg",
-                        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat necessitatibus dolorum quas e Lorem ipsum lorem2  dolor sit amet consectetur adipisicing elit. Ipsam, itaque. ligendi eum numquam aliquid laudantium dolorem magnam cupiditate",
-                        price: "$24.32",
+                        name: "Fried Rice",
+                        src: "./fried_rice.jpg",
+                        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. e Lorem ipsum lorem2  dolor sit amet consectetur adipisicing elit. Ipsam, itaque. ligendi eum numquam aliquid laudantium dolorem magnam cupiditate",
+                        price: "$19.99",
                         filters: [
-                            "2",
-                            "4",
-                            "6",
-                            "8",
-                            "10",
+                            "japanese",
+                            "selective",
+                            "libre",
+                            "modular",
+                            "hard-salt"
                         ]
                     },
                     {
-                        name: "3 6 9 12 15 18",
-                        src: "./background.jpg",
+                        name: "Cats Coming",
+                        src: "./cats.jpg",
                         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat necessitatibus dolorum quas e Lorem ipsum lorem2  dolor sit amet consectetur adipisicing elit. Ipsam, itaque. ligendi eum numquam aliquid laudantium dolorem magnam cupiditate",
+                        price: "$14.27",
+                        filters: [
+                            "chinese",
+                            "spicy",
+                            "soup",
+                            "sinjke"
+                        ]
+                    },
+                    {
+                        name: "Adoi Wine",
+                        src: "./adoi_wine.jpg",
+                        description: "Lorem ipsum dolor sitssitatibus dolorum quas e Lorem ipsum lorem2  dolor sit amet consectetur adipisicing elit. Ipsam, itaque. ligendi eum numquam aliquid laudantium dolorem magnam cupiditate",
                         price: "$24.32",
                         filters: [
-                            "3",
-                            "6",
-                            "9",
-                            "12",
-                            "15",
-                            "18"
+                            "alcohol",
+                            "japanese",
+                            "breast-milk",
+                            "interdisciplinary",
+                            "sour",
+                        ]
+                    },
+                    {
+                        name: "Cede Soup",
+                        src: "./bread_with_soup.jpg",
+                        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat necessitatibus dsit amet consectetur adipisicing elit. Ipsam, itaque. ligendi eum numquam aliquid laudantium dolorem magnam cupiditate",
+                        price: "$15.23",
+                        filters: [
+                            "hard-salt",
+                            "indian",
+                            "sea-food",
+                            "breast-milk",
+                            "spicy",
+                            "libre"
+                        ]
+                    },
+                    {
+                        name: "Kotori Shakes",
+                        src: "./shake.jpg",
+                        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat necessitatibus dsit amet consectetur adipisicing elit. Ipsam, itaque. ligendi eum numquam aliquid laudantium dolorem magnam cupiditate",
+                        price: "$12.25",
+                        filters: [
+                            "fresh",
+                            "japanese",
+                            "breast-milk",
+                            "modular",
+                            "sweet",
+                            "selective"
                         ]
                     },
                 ]
             },
             {
-                name: "Blue Sky",
+                name: "Lunch",
                 items: [
                     {
-                        name: "8 12 3 7 18 0",
-                        src: "./background.jpg",
-                        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat necessitatibus dolorum quas e Lorem ipsum lorem2  dolor sit amet consectetur adipisicing elit. Ipsam, itaque. ligendi eum numquam aliquid laudantium dolorem magnam cupiditate",
-                        price: "$24.32",
+                        name: "Cats Curry",
+                        src: "./cats_curry.jpg",
+                        description: "Lorem ipsum dolorisicing elit. Repellat necessitatibus dolorum quas e Lorem ipsum lorem2  dolor sit amet consectetur adipisicing elit. Ipsam, itaque. ligendi eum numquam aliquid laudantium dolorem magnam cupiditate",
+                        price: "$32.14",
                         filters: [
-                            "8",
-                            "12",
-                            "3",
-                            "7",
-                            "18",
-                            "0"
+                            "selective",
+                            "fresh",
+                            "japanese",
+                            "sinjke",
+                            "soft",
+                            "spicy",
+                            "soup"
                         ]
                     },
                     {
-                        name: "1 9 0 5",
-                        src: "./background.jpg",
+                        name: "Soup",
+                        src: "./soup.jpg",
                         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat necessitatibus dolorum quas e Lorem ipsum lorem2  dolor sit amet consectetur adipisicing elit. Ipsam, itaque. ligendi eum numquam aliquid laudantium dolorem magnam cupiditate",
-                        price: "$24.32",
+                        price: "$32.74",
                         filters: [
-                            "1",
-                            "9",
-                            "0",
-                            "5",
+                            "indian",
+                            "sour",
+                            "selective",
+                            "procedurally-generated",
+                            "breast-milk"
                         ]
                     },
                     {
-                        name: "3 5 8 10 13 17",
-                        src: "./background.jpg",
+                        name: "Garlic Shrimp",
+                        src: "./garlic_shrimp.jpg",
                         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat necessitatibus dolorum quas e Lorem ipsum lorem2  dolor sit amet consectetur adipisicing elit. Ipsam, itaque. ligendi eum numquam aliquid laudantium dolorem magnam cupiditate",
-                        price: "$24.32",
+                        price: "$32.74",
                         filters: [
-                            "3",
-                            "5",
-                            "8",
-                            "10",
-                            "13",
-                            "17"
+                            "chinese",
+                            "pythonic",
+                            "selective",
+                            "procedurally-generated",
+                            "hard-salt"
                         ]
                     },
                     {
-                        name: "0 5 16 19",
-                        src: "./background.jpg",
+                        name: "Jack's",
+                        src: "./daniel.jpg",
                         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat necessitatibus dolorum quas e Lorem ipsum lorem2  dolor sit amet consectetur adipisicing elit. Ipsam, itaque. ligendi eum numquam aliquid laudantium dolorem magnam cupiditate",
-                        price: "$24.32",
+                        price: "$20.25",
                         filters: [
-                            "0",
-                            "5",
-                            "16",
-                            "19",
+                            "libre",
+                            "modular",
+                            "pythonic",
+                            "oop",
+                            "alcohol",
+                            "pythonic"
                         ]
                     },
                     {
-                        name: "1 2 3 4 5 6",
-                        src: "./background.jpg",
+                        name: "Walrus Street",
+                        src: "./walrus.jpg",
                         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat necessitatibus dolorum quas e Lorem ipsum lorem2  dolor sit amet consectetur adipisicing elit. Ipsam, itaque. ligendi eum numquam aliquid laudantium dolorem magnam cupiditate",
-                        price: "$24.32",
+                        price: "$17.12",
                         filters: [
-                            "1",
-                            "2",
-                            "3",
-                            "4",
-                            "5",
-                            "6"
+                            "chinese",
+                            "hard-salt",
+                            "interdisciplinary",
+                            "spicy",
+                            "oop"
+                        ]
+                    },
+                    {
+                        name: "Fried Ozz",
+                        src: "./fried_ozz.jpg",
+                        description: "Lorem ipsum dolat necessitatibus dolorum quas e Lorem ipsum lorem2  dolor sit amet consectetur adipisicing elit. Ipsam, itaque. ligendi eum numquam aliquid laudantium dolorem magnam cupiditate",
+                        price: "$33.33",
+                        filters: [
+                            "selective",
+                            "indian",
+                            "sour",
+                            "oop",
+                            "sea-food",
+                            "soup"
                         ]
                     },
                 ]
             },
             {
-                name: "Cityscape",
+                name: "Dinner",
                 items: [
                     {
-                        name: "7 8 9 10 11 12",
-                        src: "./background.jpg",
+                        name: "Kotton Buro",
+                        src: "./kotton_buro.jpg",
                         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat necessitatibus dolorum quas e Lorem ipsum lorem2  dolor sit amet consectetur adipisicing elit. Ipsam, itaque. ligendi eum numquam aliquid laudantium dolorem magnam cupiditate",
-                        price: "$24.32",
+                        price: "$15.34",
                         filters: [
-                            "7",
-                            "8",
-                            "9",
-                            "10",
-                            "11",
-                            "12"
+                            "japanese",
+                            "hard-salt",
+                            "interdisciplinary",
+                            "sea-food",
+                            "alcohol"
                         ]
                     },
                     {
-                        name: "13 14 15 16 17 18",
-                        src: "./background.jpg",
+                        name: "Sushi",
+                        src: "./sushi.jpg",
                         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat necessitatibus dolorum quas e Lorem ipsum lorem2  dolor sit amet consectetur adipisicing elit. Ipsam, itaque. ligendi eum numquam aliquid laudantium dolorem magnam cupiditate",
-                        price: "$24.32",
+                        price: "$25.22",
                         filters: [
-                            "13",
-                            "14",
-                            "15",
-                            "16",
-                            "17",
-                            "18"
+                            "japanese",
+                            "soft",
+                            "selective",
+                            "procedurally-generated",
+                            "pythonic",
+                            "sinjke"
                         ]
                     },
                     {
-                        name: "8 10 11 13",
-                        src: "./background.jpg",
+                        name: "Sake",
+                        src: "./traditional_japanese_sake.jpg",
                         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat necessitatibus dolorum quas e Lorem ipsum lorem2  dolor sit amet consectetur adipisicing elit. Ipsam, itaque. ligendi eum numquam aliquid laudantium dolorem magnam cupiditate",
-                        price: "$24.32",
+                        price: "$33.33",
                         filters: [
-                            "8",
-                            "10",
-                            "11",
-                            "13",
+                            "selective",
+                            "sweet",
+                            "japanese",
+                            "modular",
+                            "libre",
+                            "oop",
+                            "alcohol"
                         ]
                     },
+                    {
+                        name: "Fiery Noodles",
+                        src: "./fiery_noodles.jpg",
+                        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat Lorem ipsum lorem2  dolor sit amet consectetur adipisicing elit. Ipsam, itaque. ligendi eum numquam aliquid laudantium dolorem magnam cupiditate",
+                        price: "$32.27",
+                        filters: [
+                            "pythonic",
+                            "chinese",
+                            "sinjke",
+                            "hard-salt",
+                            "libre"
+                        ]
+                    },                    
+                    {
+                        name: "Engin Akyurn",
+                        src: "./engin_akyurt.jpg",
+                        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat Lorem ipsum lorem2  dolor sit amet consectetur adipisicing elit. Ipsam, itaque. ligendi eum numquam aliquid laudantium dolorem magnam cupiditate",
+                        price: "$30.00",
+                        filters: [
+                            "pythonic",
+                            "chinese",
+                            "sinjke",
+                            "hard-salt",
+                            "libre",
+                            "sour",
+                            "procedurally-generated"
+                        ]
+                    },
+                     /**
+ * chinese
+ * indian
+ * spicy
+ * sweet
+ * soup
+ * libre
+ * pythonic
+ * interdisciplinary
+ * breast milk
+ * sinjke
+ * japanese
+ * sea food
+ * procedurally generated
+ * fresh
+ * sour
+ * selective
+ * hard salt
+ * modular
+ * OOP
+ * soft
+ * alcohol
+ */
                 ]
             }
         ];
+
         const filterData = [
-            { name: 0, tag: 0 },
-            { name: 1, tag: 1 },
-            { name: 2, tag: 2 },
-            { name: 3, tag: 3 },
-            { name: 4, tag: 4 },
-            { name: 5, tag: 5 },
-            { name: 6, tag: 6 },
-            { name: 7, tag: 7 },
-            { name: 8, tag: 8 },
-            { name: 9, tag: 9 },
-            { name: 10, tag: 10 },
-            { name: 11, tag: 11 },
-            { name: 12, tag: 12 },
-            { name: 13, tag: 13 },
-            { name: 14, tag: 14 },
-            { name: 15, tag: 15 },
-            { name: 16, tag: 16 },
-            { name: 17, tag: 17 },
-            { name: 18, tag: 18 },
-            { name: 19, tag: 19 },
+            { name: "Chinese", tag: "chinese" },
+            { name: "Indian", tag: "indian" },
+            { name: "Spicy", tag: "spicy" },
+            { name: "Sweet", tag: "sweet" },
+            { name: "Soup", tag: "soup" },
+            { name: "Libre", tag: "libre" },
+            { name: "Pythonic", tag: "pythonic" },
+            { name: "Interdisciplinary", tag: "interdisciplinary" },
+            { name: "Breast Milk", tag: "breast-milk" },
+            { name: "Sinjke", tag: "sinjke" },
+            { name: "Japanese", tag: "japanese" },
+            { name: "Sea Food", tag: "sea-food" },
+            { name: "Procedurally Generated", tag: "procedurally-generated" },
+            { name: "Fresh", tag: "fresh" },
+            { name: "Sour", tag: "sour" },
+            { name: "Selective", tag: "selective" },
+            { name: "Hard Salt", tag: "hard-salt" },
+            { name: "Modular", tag: "modular" },
+            { name: "OOP", tag: "oop" },
+            { name: "Soft", tag: "soft" },
+            { name : "Alcoholic", tag : "alcohol" }
 
         ];
         const menu = create_menu(sections);
@@ -2100,6 +2499,193 @@ module.exports = __webpack_require__.p + "close.svg";
 
 /***/ }),
 
+/***/ "./src/assets/images/dishes/adoi_wine.jpg":
+/*!************************************************!*\
+  !*** ./src/assets/images/dishes/adoi_wine.jpg ***!
+  \************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "adoi_wine.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/dishes/bread_with_soup.jpg":
+/*!******************************************************!*\
+  !*** ./src/assets/images/dishes/bread_with_soup.jpg ***!
+  \******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "bread_with_soup.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/dishes/cats.jpg":
+/*!*******************************************!*\
+  !*** ./src/assets/images/dishes/cats.jpg ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "cats.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/dishes/cats_curry.jpg":
+/*!*************************************************!*\
+  !*** ./src/assets/images/dishes/cats_curry.jpg ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "cats_curry.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/dishes/cawfee.jpg":
+/*!*********************************************!*\
+  !*** ./src/assets/images/dishes/cawfee.jpg ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "cawfee.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/dishes/daniel.jpg":
+/*!*********************************************!*\
+  !*** ./src/assets/images/dishes/daniel.jpg ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "daniel.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/dishes/engin_akyurt.jpg":
+/*!***************************************************!*\
+  !*** ./src/assets/images/dishes/engin_akyurt.jpg ***!
+  \***************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "engin_akyurt.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/dishes/fiery_noodles.jpg":
+/*!****************************************************!*\
+  !*** ./src/assets/images/dishes/fiery_noodles.jpg ***!
+  \****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "fiery_noodles.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/dishes/fried_ozz.jpg":
+/*!************************************************!*\
+  !*** ./src/assets/images/dishes/fried_ozz.jpg ***!
+  \************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "fried_ozz.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/dishes/fried_rice.jpg":
+/*!*************************************************!*\
+  !*** ./src/assets/images/dishes/fried_rice.jpg ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "fried_rice.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/dishes/garlic_shrimp.jpg":
+/*!****************************************************!*\
+  !*** ./src/assets/images/dishes/garlic_shrimp.jpg ***!
+  \****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "garlic_shrimp.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/dishes/kotton_buro.jpg":
+/*!**************************************************!*\
+  !*** ./src/assets/images/dishes/kotton_buro.jpg ***!
+  \**************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "kotton_buro.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/dishes/shake.jpg":
+/*!********************************************!*\
+  !*** ./src/assets/images/dishes/shake.jpg ***!
+  \********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "shake.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/dishes/soup.jpg":
+/*!*******************************************!*\
+  !*** ./src/assets/images/dishes/soup.jpg ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "soup.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/dishes/sushi.jpg":
+/*!********************************************!*\
+  !*** ./src/assets/images/dishes/sushi.jpg ***!
+  \********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "sushi.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/dishes/traditional_japanese_sake.jpg":
+/*!****************************************************************!*\
+  !*** ./src/assets/images/dishes/traditional_japanese_sake.jpg ***!
+  \****************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "traditional_japanese_sake.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/dishes/walrus.jpg":
+/*!*********************************************!*\
+  !*** ./src/assets/images/dishes/walrus.jpg ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "walrus.jpg";
+
+/***/ }),
+
 /***/ "./src/assets/images/gnu.svg":
 /*!***********************************!*\
   !*** ./src/assets/images/gnu.svg ***!
@@ -2144,6 +2730,39 @@ module.exports = __webpack_require__.p + "plus.svg";
 
 /***/ }),
 
+/***/ "./src/assets/images/profiles/durga.jpg":
+/*!**********************************************!*\
+  !*** ./src/assets/images/profiles/durga.jpg ***!
+  \**********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "durga.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/profiles/luke_sneed.png":
+/*!***************************************************!*\
+  !*** ./src/assets/images/profiles/luke_sneed.png ***!
+  \***************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "luke_sneed.png";
+
+/***/ }),
+
+/***/ "./src/assets/images/profiles/satania.png":
+/*!************************************************!*\
+  !*** ./src/assets/images/profiles/satania.png ***!
+  \************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "satania.png";
+
+/***/ }),
+
 /***/ "./src/assets/images/profiles/stallman.png":
 /*!*************************************************!*\
   !*** ./src/assets/images/profiles/stallman.png ***!
@@ -2152,6 +2771,17 @@ module.exports = __webpack_require__.p + "plus.svg";
 
 "use strict";
 module.exports = __webpack_require__.p + "stallman.png";
+
+/***/ }),
+
+/***/ "./src/assets/images/profiles/terry.jpg":
+/*!**********************************************!*\
+  !*** ./src/assets/images/profiles/terry.jpg ***!
+  \**********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "terry.jpg";
 
 /***/ }),
 
@@ -2309,6 +2939,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./home.js */ "./src/home.js");
 /* harmony import */ var _menu_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./menu.js */ "./src/menu.js");
 /* harmony import */ var _about_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./about.js */ "./src/about.js");
+/* harmony import */ var _contact_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./contact.js */ "./src/contact.js");
+
 
 
 
@@ -2335,7 +2967,7 @@ links.forEach(link => link.addEventListener("click", event => {
     else if (link.classList.contains("about"))
         _about_js__WEBPACK_IMPORTED_MODULE_4__.aboutObj.switch_to_about(main);
     else if (link.classList.contains("contact"))
-        console.log("contact");
+        _contact_js__WEBPACK_IMPORTED_MODULE_5__.contactObj.switch_to_contact(main);
 }));
 
 //menuObj.switch_to_menu(main);
