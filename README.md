@@ -1,3 +1,3 @@
 # Restaurant Page
 
-[LINK](google.com). Restaurant page project for The Odin Project.
+[LINK](https://kxrn0.github.io/Restaurant-Page/). Restaurant page project for The Odin Project.
