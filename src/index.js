@@ -4,6 +4,7 @@ import "./main_height.js"
 import { homeObj } from "./home.js";
 import { menuObj } from "./menu.js";
 import { aboutObj } from "./about.js";
+import { contactObj } from "./contact.js";
 
 const links = document.querySelectorAll(".links a");
 const main = document.querySelector("main");
@@ -24,7 +25,7 @@ links.forEach(link => link.addEventListener("click", event => {
     else if (link.classList.contains("about"))
         aboutObj.switch_to_about(main);
     else if (link.classList.contains("contact"))
-        console.log("contact");
+        contactObj.switch_to_contact(main);
 }));
 
 //menuObj.switch_to_menu(main);

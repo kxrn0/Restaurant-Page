@@ -4,186 +4,323 @@ export const menuObj = (
     () => {
         const sections = [
             {
-                name: "Night",
+                name: "Breakfast",
                 items: [
+                     /**
+ * chinese
+ * indian
+ * spicy
+ * sweet
+ * soup
+ * libre
+ * pythonic
+ * interdisciplinary
+ * breast milk
+ * sinjke
+ * japanese
+ * sea food
+ * procedurally generated
+ * fresh
+ * sour
+ * selective
+ * hard salt
+ * modular
+ * OOP
+ * soft
+ * alcohol
+ */
                     {
-                        name: "1 2 3",
-                        src: "./background.jpg",
+                        name: "Cawfee",
+                        src: "./walrus.jpg",
                         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat necessitatibus dolorum quas e Lorem ipsum lorem2  dolor sit amet consectetur adipisicing elit. Ipsam, itaque. ligendi eum numquam aliquid laudantium dolorem magnam cupiditate",
-                        price: "$24.32",
+                        price: "$17.12",
                         filters: [
-                            "1",
-                            "2",
-                            "3",
+                            "japanese",
+                            "soft",
+                            "breast-milk",
+                            "sweet",
+                            "oop",
+                            "selective",
+                            "libre"
                         ]
                     },
                     {
-                        name: "2 4 6 8 10",
-                        src: "./background.jpg",
-                        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat necessitatibus dolorum quas e Lorem ipsum lorem2  dolor sit amet consectetur adipisicing elit. Ipsam, itaque. ligendi eum numquam aliquid laudantium dolorem magnam cupiditate",
-                        price: "$24.32",
+                        name: "Fried Rice",
+                        src: "./fried_rice.jpg",
+                        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. e Lorem ipsum lorem2  dolor sit amet consectetur adipisicing elit. Ipsam, itaque. ligendi eum numquam aliquid laudantium dolorem magnam cupiditate",
+                        price: "$19.99",
                         filters: [
-                            "2",
-                            "4",
-                            "6",
-                            "8",
-                            "10",
+                            "japanese",
+                            "selective",
+                            "libre",
+                            "modular",
+                            "hard-salt"
                         ]
                     },
                     {
-                        name: "3 6 9 12 15 18",
-                        src: "./background.jpg",
+                        name: "Cats Coming",
+                        src: "./cats.jpg",
                         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat necessitatibus dolorum quas e Lorem ipsum lorem2  dolor sit amet consectetur adipisicing elit. Ipsam, itaque. ligendi eum numquam aliquid laudantium dolorem magnam cupiditate",
+                        price: "$14.27",
+                        filters: [
+                            "chinese",
+                            "spicy",
+                            "soup",
+                            "sinjke"
+                        ]
+                    },
+                    {
+                        name: "Adoi Wine",
+                        src: "./adoi_wine.jpg",
+                        description: "Lorem ipsum dolor sitssitatibus dolorum quas e Lorem ipsum lorem2  dolor sit amet consectetur adipisicing elit. Ipsam, itaque. ligendi eum numquam aliquid laudantium dolorem magnam cupiditate",
                         price: "$24.32",
                         filters: [
-                            "3",
-                            "6",
-                            "9",
-                            "12",
-                            "15",
-                            "18"
+                            "alcohol",
+                            "japanese",
+                            "breast-milk",
+                            "interdisciplinary",
+                            "sour",
+                        ]
+                    },
+                    {
+                        name: "Cede Soup",
+                        src: "./bread_with_soup.jpg",
+                        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat necessitatibus dsit amet consectetur adipisicing elit. Ipsam, itaque. ligendi eum numquam aliquid laudantium dolorem magnam cupiditate",
+                        price: "$15.23",
+                        filters: [
+                            "hard-salt",
+                            "indian",
+                            "sea-food",
+                            "breast-milk",
+                            "spicy",
+                            "libre"
+                        ]
+                    },
+                    {
+                        name: "Kotori Shakes",
+                        src: "./shake.jpg",
+                        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat necessitatibus dsit amet consectetur adipisicing elit. Ipsam, itaque. ligendi eum numquam aliquid laudantium dolorem magnam cupiditate",
+                        price: "$12.25",
+                        filters: [
+                            "fresh",
+                            "japanese",
+                            "breast-milk",
+                            "modular",
+                            "sweet",
+                            "selective"
                         ]
                     },
                 ]
             },
             {
-                name: "Blue Sky",
+                name: "Lunch",
                 items: [
                     {
-                        name: "8 12 3 7 18 0",
-                        src: "./background.jpg",
-                        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat necessitatibus dolorum quas e Lorem ipsum lorem2  dolor sit amet consectetur adipisicing elit. Ipsam, itaque. ligendi eum numquam aliquid laudantium dolorem magnam cupiditate",
-                        price: "$24.32",
+                        name: "Cats Curry",
+                        src: "./cats_curry.jpg",
+                        description: "Lorem ipsum dolorisicing elit. Repellat necessitatibus dolorum quas e Lorem ipsum lorem2  dolor sit amet consectetur adipisicing elit. Ipsam, itaque. ligendi eum numquam aliquid laudantium dolorem magnam cupiditate",
+                        price: "$32.14",
                         filters: [
-                            "8",
-                            "12",
-                            "3",
-                            "7",
-                            "18",
-                            "0"
+                            "selective",
+                            "fresh",
+                            "japanese",
+                            "sinjke",
+                            "soft",
+                            "spicy",
+                            "soup"
                         ]
                     },
                     {
-                        name: "1 9 0 5",
-                        src: "./background.jpg",
+                        name: "Soup",
+                        src: "./soup.jpg",
                         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat necessitatibus dolorum quas e Lorem ipsum lorem2  dolor sit amet consectetur adipisicing elit. Ipsam, itaque. ligendi eum numquam aliquid laudantium dolorem magnam cupiditate",
-                        price: "$24.32",
+                        price: "$32.74",
                         filters: [
-                            "1",
-                            "9",
-                            "0",
-                            "5",
+                            "indian",
+                            "sour",
+                            "selective",
+                            "procedurally-generated",
+                            "breast-milk"
                         ]
                     },
                     {
-                        name: "3 5 8 10 13 17",
-                        src: "./background.jpg",
+                        name: "Garlic Shrimp",
+                        src: "./garlic_shrimp.jpg",
                         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat necessitatibus dolorum quas e Lorem ipsum lorem2  dolor sit amet consectetur adipisicing elit. Ipsam, itaque. ligendi eum numquam aliquid laudantium dolorem magnam cupiditate",
-                        price: "$24.32",
+                        price: "$32.74",
                         filters: [
-                            "3",
-                            "5",
-                            "8",
-                            "10",
-                            "13",
-                            "17"
+                            "chinese",
+                            "pythonic",
+                            "selective",
+                            "procedurally-generated",
+                            "hard-salt"
                         ]
                     },
                     {
-                        name: "0 5 16 19",
-                        src: "./background.jpg",
+                        name: "Jack's",
+                        src: "./daniel.jpg",
                         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat necessitatibus dolorum quas e Lorem ipsum lorem2  dolor sit amet consectetur adipisicing elit. Ipsam, itaque. ligendi eum numquam aliquid laudantium dolorem magnam cupiditate",
-                        price: "$24.32",
+                        price: "$20.25",
                         filters: [
-                            "0",
-                            "5",
-                            "16",
-                            "19",
+                            "libre",
+                            "modular",
+                            "pythonic",
+                            "oop",
+                            "alcohol",
+                            "pythonic"
                         ]
                     },
                     {
-                        name: "1 2 3 4 5 6",
-                        src: "./background.jpg",
+                        name: "Walrus Street",
+                        src: "./walrus.jpg",
                         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat necessitatibus dolorum quas e Lorem ipsum lorem2  dolor sit amet consectetur adipisicing elit. Ipsam, itaque. ligendi eum numquam aliquid laudantium dolorem magnam cupiditate",
-                        price: "$24.32",
+                        price: "$17.12",
                         filters: [
-                            "1",
-                            "2",
-                            "3",
-                            "4",
-                            "5",
-                            "6"
+                            "chinese",
+                            "hard-salt",
+                            "interdisciplinary",
+                            "spicy",
+                            "oop"
+                        ]
+                    },
+                    {
+                        name: "Fried Ozz",
+                        src: "./fried_ozz.jpg",
+                        description: "Lorem ipsum dolat necessitatibus dolorum quas e Lorem ipsum lorem2  dolor sit amet consectetur adipisicing elit. Ipsam, itaque. ligendi eum numquam aliquid laudantium dolorem magnam cupiditate",
+                        price: "$33.33",
+                        filters: [
+                            "selective",
+                            "indian",
+                            "sour",
+                            "oop",
+                            "sea-food",
+                            "soup"
                         ]
                     },
                 ]
             },
             {
-                name: "Cityscape",
+                name: "Dinner",
                 items: [
                     {
-                        name: "7 8 9 10 11 12",
-                        src: "./background.jpg",
+                        name: "Kotton Buro",
+                        src: "./kotton_buro.jpg",
                         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat necessitatibus dolorum quas e Lorem ipsum lorem2  dolor sit amet consectetur adipisicing elit. Ipsam, itaque. ligendi eum numquam aliquid laudantium dolorem magnam cupiditate",
-                        price: "$24.32",
+                        price: "$15.34",
                         filters: [
-                            "7",
-                            "8",
-                            "9",
-                            "10",
-                            "11",
-                            "12"
+                            "japanese",
+                            "hard-salt",
+                            "interdisciplinary",
+                            "sea-food",
+                            "alcohol"
                         ]
                     },
                     {
-                        name: "13 14 15 16 17 18",
-                        src: "./background.jpg",
+                        name: "Sushi",
+                        src: "./sushi.jpg",
                         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat necessitatibus dolorum quas e Lorem ipsum lorem2  dolor sit amet consectetur adipisicing elit. Ipsam, itaque. ligendi eum numquam aliquid laudantium dolorem magnam cupiditate",
-                        price: "$24.32",
+                        price: "$25.22",
                         filters: [
-                            "13",
-                            "14",
-                            "15",
-                            "16",
-                            "17",
-                            "18"
+                            "japanese",
+                            "soft",
+                            "selective",
+                            "procedurally-generated",
+                            "pythonic",
+                            "sinjke"
                         ]
                     },
                     {
-                        name: "8 10 11 13",
-                        src: "./background.jpg",
+                        name: "Sake",
+                        src: "./traditional_japanese_sake.jpg",
                         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat necessitatibus dolorum quas e Lorem ipsum lorem2  dolor sit amet consectetur adipisicing elit. Ipsam, itaque. ligendi eum numquam aliquid laudantium dolorem magnam cupiditate",
-                        price: "$24.32",
+                        price: "$33.33",
                         filters: [
-                            "8",
-                            "10",
-                            "11",
-                            "13",
+                            "selective",
+                            "sweet",
+                            "japanese",
+                            "modular",
+                            "libre",
+                            "oop",
+                            "alcohol"
                         ]
                     },
+                    {
+                        name: "Fiery Noodles",
+                        src: "./fiery_noodles.jpg",
+                        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat Lorem ipsum lorem2  dolor sit amet consectetur adipisicing elit. Ipsam, itaque. ligendi eum numquam aliquid laudantium dolorem magnam cupiditate",
+                        price: "$32.27",
+                        filters: [
+                            "pythonic",
+                            "chinese",
+                            "sinjke",
+                            "hard-salt",
+                            "libre"
+                        ]
+                    },                    
+                    {
+                        name: "Engin Akyurn",
+                        src: "./engin_akyurt.jpg",
+                        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat Lorem ipsum lorem2  dolor sit amet consectetur adipisicing elit. Ipsam, itaque. ligendi eum numquam aliquid laudantium dolorem magnam cupiditate",
+                        price: "$30.00",
+                        filters: [
+                            "pythonic",
+                            "chinese",
+                            "sinjke",
+                            "hard-salt",
+                            "libre",
+                            "sour",
+                            "procedurally-generated"
+                        ]
+                    },
+                     /**
+ * chinese
+ * indian
+ * spicy
+ * sweet
+ * soup
+ * libre
+ * pythonic
+ * interdisciplinary
+ * breast milk
+ * sinjke
+ * japanese
+ * sea food
+ * procedurally generated
+ * fresh
+ * sour
+ * selective
+ * hard salt
+ * modular
+ * OOP
+ * soft
+ * alcohol
+ */
                 ]
             }
         ];
+
         const filterData = [
-            { name: 0, tag: 0 },
-            { name: 1, tag: 1 },
-            { name: 2, tag: 2 },
-            { name: 3, tag: 3 },
-            { name: 4, tag: 4 },
-            { name: 5, tag: 5 },
-            { name: 6, tag: 6 },
-            { name: 7, tag: 7 },
-            { name: 8, tag: 8 },
-            { name: 9, tag: 9 },
-            { name: 10, tag: 10 },
-            { name: 11, tag: 11 },
-            { name: 12, tag: 12 },
-            { name: 13, tag: 13 },
-            { name: 14, tag: 14 },
-            { name: 15, tag: 15 },
-            { name: 16, tag: 16 },
-            { name: 17, tag: 17 },
-            { name: 18, tag: 18 },
-            { name: 19, tag: 19 },
+            { name: "Chinese", tag: "chinese" },
+            { name: "Indian", tag: "indian" },
+            { name: "Spicy", tag: "spicy" },
+            { name: "Sweet", tag: "sweet" },
+            { name: "Soup", tag: "soup" },
+            { name: "Libre", tag: "libre" },
+            { name: "Pythonic", tag: "pythonic" },
+            { name: "Interdisciplinary", tag: "interdisciplinary" },
+            { name: "Breast Milk", tag: "breast-milk" },
+            { name: "Sinjke", tag: "sinjke" },
+            { name: "Japanese", tag: "japanese" },
+            { name: "Sea Food", tag: "sea-food" },
+            { name: "Procedurally Generated", tag: "procedurally-generated" },
+            { name: "Fresh", tag: "fresh" },
+            { name: "Sour", tag: "sour" },
+            { name: "Selective", tag: "selective" },
+            { name: "Hard Salt", tag: "hard-salt" },
+            { name: "Modular", tag: "modular" },
+            { name: "OOP", tag: "oop" },
+            { name: "Soft", tag: "soft" },
+            { name : "Alcoholic", tag : "alcohol" }
 
         ];
         const menu = create_menu(sections);

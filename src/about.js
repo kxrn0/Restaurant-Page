@@ -18,12 +18,26 @@ export const aboutObj = (
         title.innerText = "Lorem Ipsum Dolor";
         para.innerText = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, cum facilis commodi error fugiat quisoluta nihil quam! Provident, maior Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, dolorem eos. Asperiores veritatis, tenetur consectetur incidunt nihil rerum cumque itaque. es!";
 
-        for (let i = 0; i < 6; i++)
-            cards.append(create_card("Richard Stallman", 
-                                    "Manager",
-                                    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius blanditiis magni molestia lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim natus tempore repudiandae at tenetur fuga exercitationem beatae laborum, atque porro! s saepe cum suscipit impedit iste omnis ducimus praesentium!",
-                                    "./stallman.png", "stallman"));
-
+        cards.append(create_card("Richard Stallman",
+            "Manager",
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius blanditiis magni molestia lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim natus tempore repudiandae at tenetur fuga exercitationem beatae laborum, atque porro! s saepe cum suscipit impedit iste omnis ducimus praesentium!",
+            "./stallman.png", "stallman"));
+        cards.append(create_card("Terrence A. Davidson",
+            "Main Cook",
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius blanditiis magni molestia lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim natus tempore repudiandae at tenetur fuga exercitationem beatae laborum, atque porro! s saepe cum suscipit impedit iste omnis ducimus praesentium!",
+            "./terry.jpg", "terry"));
+        cards.append(create_card("Durga Sir",
+            "Weapon of GNU/Serve",
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius blanditiis magni molestia lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim natus tempore repudiandae at tenetur fuga exercitationem beatae laborum, atque porro! s saepe cum suscipit impedit iste omnis ducimus praesentium!",
+            "./durga.jpg", "durga"));
+        cards.append(create_card("Satania",
+            "Waitress",
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius blanditiis magni molestia lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim natus tempore repudiandae at tenetur fuga exercitationem beatae laborum, atque porro! s saepe cum suscipit impedit iste omnis ducimus praesentium!",
+            "./satania.png", "satania"));
+        cards.append(create_card("Luke Sneed",
+            "Feed and Seed",
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius blanditiis magni molestia lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim natus tempore repudiandae at tenetur fuga exercitationem beatae laborum, atque porro! s saepe cum suscipit impedit iste omnis ducimus praesentium!",
+            "./luke_sneed.png", "sneed"));
         function create_card(name, position, description, src, id) {
             const card = document.createElement("div");
             const content = document.createElement("div");
