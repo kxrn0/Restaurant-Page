@@ -6,32 +6,9 @@ export const menuObj = (
             {
                 name: "Breakfast",
                 items: [
-                     /**
- * chinese
- * indian
- * spicy
- * sweet
- * soup
- * libre
- * pythonic
- * interdisciplinary
- * breast milk
- * sinjke
- * japanese
- * sea food
- * procedurally generated
- * fresh
- * sour
- * selective
- * hard salt
- * modular
- * OOP
- * soft
- * alcohol
- */
                     {
                         name: "Cawfee",
-                        src: "./walrus.jpg",
+                        src: "./cawfee.jpg",
                         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat necessitatibus dolorum quas e Lorem ipsum lorem2  dolor sit amet consectetur adipisicing elit. Ipsam, itaque. ligendi eum numquam aliquid laudantium dolorem magnam cupiditate",
                         price: "$17.12",
                         filters: [
